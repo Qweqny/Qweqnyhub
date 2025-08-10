@@ -10,7 +10,7 @@
 
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-  Title = "AdvanceTech Arsenal",
+  Title = "Helixia TEAM",
   Text = "Working For Mobile and PC Executor",
   Duration = 8,
 })
@@ -18,7 +18,6 @@ CoreGui:SetCore("SendNotification", {
 game:GetService("StarterGui"):SetCore("SendNotification", {
   Title = "Maded By:",
   Text = "HELİXİA TEAM",
-  Icon = "rbxthumb://type=Asset&id=13508183954&w=150&h=150",
   Duration = 8,
 })
 
@@ -45,7 +44,7 @@ local Library    = loadstring(game:HttpGet("https://raw.githubusercontent.com/bi
 local Window     = Library.CreateLib("Helixia | Arsenal | v1", "BlueTheme")
 
 local Welcome     = Window:NewTab("Main")
-local MainSection = Welcome:NewSection("Welcome To AdvanceTech | " .. game.Players.LocalPlayer.Name)
+local MainSection = Welcome:NewSection("Welcome To Helixia Arsenal | " .. game.Players.LocalPlayer.Name)
 local HitboxSection = Welcome:NewSection("> Hitbox Settings <")
 --[[
 local SilentTab   = Welcome:NewSection("> Silent Aim <")
@@ -1609,12 +1608,12 @@ end)
 
 local Credit = Window:NewTab("Credits")
 local Section = Credit:NewSection("Credits")
-local Section = Credit:NewSection("Script Developed by: AdvanceFalling Team")
+local Section = Credit:NewSection("Script Developed by: Helixia TEAM")
 Section:NewDropdown("Developer", "Dev", {"Wreston", "Wreston JR","Qweqny"}, function(currentDeveloper)
     local creations = {
         Wreston  = "Owner",
         WrestonJR = "Head Developer",
-        Qweqny = "Script Maker
+        Qweqny = "Script Maker"
     }
     print(currentDeveloper .. " created " .. creations[currentDeveloper])
 end)
@@ -1631,10 +1630,7 @@ local button = Instance.new("TextButton", frame)
 
 frame.BackgroundTransparency = 1
 frame.Position = UDim2.new(0, 0, 0.65, -100)
-frame.Size = UDim2.new(0, 100, 0, 50)
-frame.Image = 
-frame.ImageColor3 = Color3.fromRGB(11, 18, 7)
-frame.ImageTransparency = 0.2
+frame.Size = UDim2.new(0, 100, 0, 50) 
 frame.ScaleType = Enum.ScaleType.Slice
 frame.SliceCenter = Rect.new(100, 100, 100, 100)
 frame.SliceScale = 0.12
